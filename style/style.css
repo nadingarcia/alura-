@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;  
+}
+
+.container-main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.section-1{
+    background-image: url(/assets/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 48.5rem;
+    width: 100%;
+}
+
+.section-1-conteudo-ezquerda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 9.5% 0 0 13.5%;
+    width: 36.75rem;
+    gap: 4rem;
+}
+
+h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 1.75rem;
+}
+
+.section-1-conteudo-ezquerda-button {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 2rem;
+}
+
+a {
+    width: 32rem;
+    border-radius: 0.5rem;
+    padding: 1.75rem 0;
+}
+
+a:hover {
+    scale: 1.1;
+}
+
+.azul {
+    background-color: rgba(22, 123, 247, 1);
+}
+
+.transparente {
+    border: solid 1px white;
+}
+
+.texto-aviso {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 6.4rem 0 0 0;
+    gap: 4.31rem;
+}
+
+.texto-assista {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 36.75rem;
+    gap: 1rem;
+}
+
+h2.assista {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.paragrafo-assista {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    opacity: 80%;
+}
+
+.imagen-computador {
+    width: 31.13rem;
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 6.4rem 0 0 0;
+    gap: 4.31rem;
+}
+
+a.assinatura {
+    width: 10.17rem;
+    text-align: center;
+}
+
+.logo_com_texto {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.section-final {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 6.4rem 0 0 0;
+    gap: 4.31rem;
+}
+
+.assista-final {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4.31rem;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 9rem;
+    text-align: center;
+}
+
+.opcoes-footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 0 0 9.88rem;
+}
+
+p.paragrafo-footer {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 0.88rem;
+}
+
+.ancora-footer {
+    text-decoration: none;
+    color: white;
+}
+
+.ancora-footer:hover {
+    color: rgba(22, 123, 247, 1);
+}
+
+@media (max-width: 1200px) {
+    .section-2{
+        flex-direction: column;
+    }
+    
+    .section-3 {
+        flex-direction: column;
+    }
+
+    .assista-final {
+        flex-direction: column;
+    }
+    
+    .opcoes-footer {
+        width: 100%;
+        gap: 1rem;
+        margin: 0 ;
+    }
+
+    .footer {
+        margin: 0;
+    }
+    
+    .section-1-conteudo-ezquerda {
+        margin: 4% 0 0 0;
+    }
+
+    .texto-assista {
+        align-items: center;
+    }
+
+    .paragrafo-assista {
+        width: 80%;
+    }
+
+    .section-2 {
+        margin: 0;
+    }
+}
