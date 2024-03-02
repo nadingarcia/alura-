@@ -214,6 +214,9 @@ p.paragrafo-footer {
 
     .imagem-computador {
         width: 90%;
-
 }
+    
+    .paragrafo-footer {
+        margin-bottom: 5%;
+    }
 }
