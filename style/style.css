@@ -20,17 +20,17 @@ body {
     background-image: url(/assets/Background.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 48.5rem;
     width: 100%;
 }
 
 .section-1-conteudo-ezquerda {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
     margin: 9.5% 0 0 13.5%;
-    width: 36.75rem;
+    width: 30%;
     gap: 4rem;
 }
 
@@ -48,7 +48,7 @@ h1 {
 }
 
 a {
-    width: 32rem;
+    width: 120%;
     border-radius: 0.5rem;
     padding: 1.75rem 0;
 }
@@ -83,8 +83,7 @@ a:hover {
 .texto-assista {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    width: 36.75rem;
+    width: 30%;
     gap: 1rem;
 }
 
@@ -101,22 +100,17 @@ h2.assista {
     opacity: 80%;
 }
 
-.imagen-computador {
-    width: 31.13rem;
-}
-
 .section-3 {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    text-align: center;
     justify-content: center;
     margin: 6.4rem 0 0 0;
     gap: 4.31rem;
 }
 
 a.assinatura {
-    width: 10.17rem;
+    width: 30%;
     text-align: center;
 }
 
@@ -188,9 +182,10 @@ p.paragrafo-footer {
     }
     
     .opcoes-footer {
-        width: 100%;
+        width: 90%;
         gap: 1rem;
         margin: 0 ;
+        word-wrap: break-word;
     }
 
     .footer {
@@ -199,14 +194,16 @@ p.paragrafo-footer {
     
     .section-1-conteudo-ezquerda {
         margin: 4% 0 0 0;
+        width: 90%;
     }
 
     .texto-assista {
         align-items: center;
+        width: 90%;
     }
 
     .paragrafo-assista {
-        width: 80%;
+        width: 90%;
     }
 
     .section-2 {
