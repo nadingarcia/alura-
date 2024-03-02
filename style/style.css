@@ -175,6 +175,7 @@ p.paragrafo-footer {
     
     .section-3 {
         flex-direction: column;
+        margin-bottom: 10%;
     }
 
     .assista-final {
@@ -208,5 +209,9 @@ p.paragrafo-footer {
 
     .section-2 {
         margin: 0;
+    }
+
+    a.assinatura {
+        width: 50%;
     }
 }
