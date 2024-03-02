@@ -211,4 +211,7 @@ p.paragrafo-footer {
     a.assinatura {
         width: 50%;
     }
+
+    img {
+        width: 90%;
 }
