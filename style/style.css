@@ -191,7 +191,7 @@ p.paragrafo-footer {
     }
     
     .section-1-conteudo-ezquerda {
-        margin: 4% 0 0 0;
+        margin: 4% 0 0 2%;
         width: 90%;
     }
 
@@ -216,6 +216,6 @@ p.paragrafo-footer {
         width: 90%;
 
     .logo {
-        display: none;
+        width: 30%;
 }
 }
