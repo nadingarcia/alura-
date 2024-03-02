@@ -217,6 +217,6 @@ p.paragrafo-footer {
 }
     
     .paragrafo-footer {
-        margin-bottom: 5%;
+        margin: 5% 0;
     }
 }
