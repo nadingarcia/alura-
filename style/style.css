@@ -183,10 +183,7 @@ p.paragrafo-footer {
     }
     
     .opcoes-footer {
-        align-items: flex-start;
-        max-width: 90%;
-        margin: 0;
-        word-wrap: break-word;
+        display: none;
     }
 
     .footer {
